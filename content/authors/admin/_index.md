@@ -112,14 +112,14 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Soccer
         description: ''
         percent: 60
-        icon: person-simple-walk
-      - name: Cats
+        icon: soccer
+      - name: Travelling
         description: ''
         percent: 100
-        icon: cat
+        icon: airplane
       - name: Photography
         description: ''
         percent: 80
