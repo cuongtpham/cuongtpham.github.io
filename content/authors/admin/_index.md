@@ -63,21 +63,25 @@ education:
     date_start: 2017-01-09
     date_end: 2022-05-01
     summary: |
-      GPA: 3.61/4.0
-      Faculty Ranking: 1/120 - Valecdictorian
-      Thesis on _Application of Unmanned Aerial Vehicles and Deep Learning Techniques to Detect Bridge Damage_.    
+      - GPA: 3.61/4.0
+      - Faculty Ranking: 1/120 - Valedictorian
+      - Thesis on _Application of Unmanned Aerial Vehicles and Deep Learning Techniques to Detect Bridge Damage_.    
 work:
   - position: Graduate Research Assistant
     company_name: University of South Alabama
-    company_url: ''
-    company_logo: ''
+    company_url: 'https://www.southalabama.edu/'
+    company_logo: 'https://www.southalabama.edu/departments/publicrelations/brand/images/letters/usa_red.png'
     date_start: 2024-05-26
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Conduct research on coastal flood risk modeling integrating storm surge, sea level rise, and hydrodynamic simulations.
+      - Developed AI/ML pipelines to enrich missing attributes in coastal building inventories.
+      - Implemented community-scale risk assessments, applying fragility models for multi-hazard loss estimation.
+      - Designed and executed wave–structure interaction experiments using scaled timber structures in wave flume.
+      - Applied computer vision to post-disaster imagery (street-level and UAV) for automated tornado damage detection.
+
+Prepared manuscripts, technical reports, and presentations for conferences (EWRI, ASCE) and interdisciplinary research teams.
   - position: Teaching Assistant
     company_name: The University of Da Nang - University of Science and Technology (UD-DUT)
     company_url: ''
