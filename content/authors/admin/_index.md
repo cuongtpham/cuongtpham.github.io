@@ -33,14 +33,10 @@ profiles:
   - icon: at-symbol
     url: 'mailto:cuongpham@southalabama.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
     url: https://github.com/cuongtpham
   - icon: brands/linkedin
-    url: https://www.linkedin.com/cuongpham23/
+    url: https://www.linkedin.com/in/cuongpham23/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=QQNdh94AAAAJ&hl=en
   - icon: academicons/orcid
