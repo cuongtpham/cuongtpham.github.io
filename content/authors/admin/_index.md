@@ -11,7 +11,7 @@ pronouns: he/his
 
 # Status emoji
 status:
-  icon: 📚
+  icon: ✅
 
 # Is this the primary user of the site?
 superuser: true
@@ -76,12 +76,23 @@ work:
       - Implemented community-scale risk assessments, applying fragility models for multi-hazard loss estimation.
       - Designed and executed wave–structure interaction experiments using scaled timber structures in wave flume.
       - Applied computer vision to post-disaster imagery (street-level and UAV) for automated tornado damage detection.
+  - position: Civil Engineer
+    company_name: CERT Smart.Civil
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-04-01
+    date_end: 2024-03-31
+    summary: |
+      Responsibilities include:
+      - Participated in verifying and load testing for bridges
+      - Designed and produced shop drawings
+      - Simulated and conducted analyses of steel structures, encompassing low buildings and tornado shelters
   - position: Teaching Assistant
     company_name: The University of Da Nang - University of Science and Technology (UD-DUT)
     company_url: ''
     company_logo: ''
     date_start: 2022-03-15
-    date_end: 2023-03-31
+    date_end: 2024-03-31
     summary: |
       Responsibilities include:
       - Teaching Assistant in Steel Bridge, English for Construction Materials Engineering, and  Mathematics in Artificial Intelligence courses
@@ -89,7 +100,17 @@ work:
       - Guided 30-50 students per class to execute specialized projects
       - Graded weekly reports and assignments
       - Collaborated with faculty to plan and meet learning objectives
-
+  - position: STEM Tutor (Part-time)
+    company_name: LEAD English Center
+    company_url: ''
+    company_logo: ''
+    date_start: 2020-04-15
+    date_end: 2024-03-31
+    summary: |
+      Responsibilities include:
+      - Tutored science, math, and programming for children from 5 to 15 years old
+      - Prepared lectures and study materials
+      - Organized monthly “STEAM Day” for students
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
