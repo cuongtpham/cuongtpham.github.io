@@ -2,9 +2,6 @@
 # Display name
 title: Cuong T. Pham
 
-# Name pronunciation (optional)
-name_pronunciation: Cuong T. Pham
-
 # Full name (for SEO)
 first_name: Cuong
 last_name: Pham
