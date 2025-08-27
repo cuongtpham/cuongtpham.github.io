@@ -80,7 +80,6 @@ work:
       - Implemented community-scale risk assessments, applying fragility models for multi-hazard loss estimation.
       - Designed and executed wave–structure interaction experiments using scaled timber structures in wave flume.
       - Applied computer vision to post-disaster imagery (street-level and UAV) for automated tornado damage detection.
-Prepared manuscripts, technical reports, and presentations for conferences (EWRI, ASCE) and interdisciplinary research teams.
   - position: Teaching Assistant
     company_name: The University of Da Nang - University of Science and Technology (UD-DUT)
     company_url: ''
