@@ -10,8 +10,8 @@ last_name: Pham
 pronouns: he/his
 
 # Status emoji
-status:
-  icon: ✅
+# status:
+# icon: ✅
 
 # Is this the primary user of the site?
 superuser: true
@@ -61,7 +61,7 @@ education:
     summary: |
       - GPA: 3.61/4.0
       - Faculty Ranking: 1/120 - Valedictorian
-      - Thesis on _Application of Unmanned Aerial Vehicles and Deep Learning Techniques to Detect Bridge Damage_.    
+      - Thesis on _Application of Unmanned Aerial Vehicles and Deep Learning Techniques to Detect Bridge Damage_    
 work:
   - position: Graduate Research Assistant
     company_name: University of South Alabama
@@ -69,7 +69,7 @@ work:
     company_logo: 'https://www.southalabama.edu/departments/publicrelations/brand/images/letters/usa_red.png'
     date_start: 2024-05-26
     date_end: ''
-    summary: |2-
+    summary: |
       Responsibilities include:
       - Conduct research on coastal flood risk modeling integrating storm surge, sea level rise, and hydrodynamic simulations.
       - Developed AI/ML pipelines to enrich missing attributes in coastal building inventories.
@@ -136,11 +136,11 @@ skills:
       - name: Soccer
         description: ''
         percent: 60
-        icon: soccer
+        icon: person-soccer
       - name: Travelling
         description: ''
         percent: 100
-        icon: airplane
+        icon: plane
       - name: Photography
         description: ''
         percent: 80
