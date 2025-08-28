@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: My research integrates hydrodynamic modeling, structural experiments, and artificial intelligence to advance coastal hazard management and community resilience. I develop machine learning and deep learning approaches to enrich coastal building inventories, improve flood risk and loss estimation under storm surge and sea level rise scenarios, and apply computer vision to detect disaster damages from imagery. In parallel, I conduct wave–structure interaction experiments to inform resilient design of coastal buildings. Please reach out to collaborate..
       filters:
         folders:
           - project
