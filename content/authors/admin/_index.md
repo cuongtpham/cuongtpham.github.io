@@ -49,12 +49,12 @@ interests:
   - Natural Hazards
 
 education:
-  - area: PhD Systems Engineering
+  - area: PhD in Systems Engineering
     institution: University of South Alabama
     date_start: 2024-05-26
     date_end: ''
 
-  - area: BSc Civil Engineering
+  - area: BSc in Civil Engineering
     institution: The University of Da Nang - University of Science and Technology
     date_start: 2017-01-09
     date_end: 2022-05-01
@@ -88,7 +88,7 @@ work:
       - Designed and produced shop drawings
       - Simulated and conducted analyses of steel structures, encompassing low buildings and tornado shelters
   - position: Teaching Assistant
-    company_name: The University of Da Nang - University of Science and Technology (UD-DUT)
+    company_name: The University of Da Nang - University of Science and Technology
     company_url: ''
     company_logo: ''
     date_start: 2022-03-15
