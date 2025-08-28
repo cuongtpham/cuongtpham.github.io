@@ -38,7 +38,10 @@ sections:
     content:
       title: 'My Research'
       subtitle: ''
-      text:  'My research integrates hydrodynamic modeling, structural experiments, and artificial intelligence to advance coastal hazard management and community resilience. I develop machine learning approaches to enrich coastal building inventories, improve flood risk and loss estimation under storm surge and sea level rise scenarios, and apply computer vision to detect disaster damages from imagery. In parallel, I conduct wave–structure interaction experiments to inform resilient design of coastal buildings. Please reach out to collaborate.'
+      text:  My research integrates hydrodynamic modeling, structural experiments, and artificial intelligence to advance coastal hazard management and community resilience. I develop machine learning approaches to enrich coastal building inventories, improve flood risk and loss estimation under storm surge and sea level rise scenarios, and apply computer vision to detect disaster damages from imagery. In parallel, I conduct wave–structure interaction experiments to inform resilient design of coastal buildings. Please reach out to collaborate.
+    design:
+      column: 2
+      view: showcase
   - block: collection
     id: papers
     content:
