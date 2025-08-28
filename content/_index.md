@@ -43,7 +43,7 @@ sections:
         Please reach out to collaborate
     design:
       columns: '1'
-      css_style: "width:80%; margin-left:auto; margin-right:auto; text-align:right; line-height:1.8;"
+      css_style: "width:100%; margin-left:auto; margin-right:auto; text-align:right; line-height:1.8;"
 
   - block: collection
     id: papers
