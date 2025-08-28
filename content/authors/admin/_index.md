@@ -119,11 +119,11 @@ skills:
       - name: Python
         description: ''
         percent: 75
-        icon: code-bracket
+        icon: devicon/python
       - name: Matlab
         description: ''
         percent: 75
-        icon: code-bracket
+        icon: devicon/matlab
       - name: Data Science
         description: ''
         percent: 100
@@ -140,7 +140,7 @@ skills:
       - name: Travelling
         description: ''
         percent: 100
-        icon: plane
+        icon: hero/globe-alt
       - name: Photography
         description: ''
         percent: 80
