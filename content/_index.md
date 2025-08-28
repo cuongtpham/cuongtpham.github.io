@@ -62,7 +62,7 @@ sections:
       view: compact 
       # Reduce spacing
       spacing:
-        padding: [0, 0, 0, 0]
+        padding: [4rem, 0, 0, 0]
   - block: collection
     content:
       title: Recent Publications
