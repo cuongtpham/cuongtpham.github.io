@@ -35,12 +35,12 @@ sections:
           position: center
           parallax: false
   - block: collection
-    id: papers
+    id: news
     content:
-      title: Featured Publications
+      title: Recent News
       filters:
         folders:
-          - publication
+          - post
         featured_only: true
     design:
       view: article-grid
