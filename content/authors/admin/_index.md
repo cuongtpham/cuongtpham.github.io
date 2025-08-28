@@ -136,7 +136,7 @@ skills:
       - name: Soccer
         description: ''
         percent: 60
-        icon: person-soccer
+        icon: ⚽
       - name: Travelling
         description: ''
         percent: 100
