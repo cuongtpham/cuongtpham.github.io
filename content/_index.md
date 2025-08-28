@@ -38,27 +38,6 @@ sections:
     id: news
     content:
       title: Recent News
-      filters:
-        folders:
-          - post
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: news
-    content:
-      title: Recent News
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
@@ -80,10 +59,20 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: date-title-summary
+      view: showcase 
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+  - block: collection
+    content:
+      title: Recent Publications
+      text: ""
+      filters:
+        folders:
+          - publication
+        exclude_featured: false
+    design:
+      view: citation
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
