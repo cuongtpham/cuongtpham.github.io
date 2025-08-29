@@ -1,84 +1,100 @@
 ---
-title: "An example journal article"
+title: "Investigation of the application scope of bond strength empirical formulas for various FRP bars in concrete: A case study utilizing the safety probability value with a large test dataset"
 authors:
-- admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
-
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
+- Huynh Phuong Nam
+- Nguyen Minh Hai
+- Do Viet Hai
+- Phan Hoang Nam
+- Pham Tien Cuong
+- Nguyen Van Huong
+date: "2024-04-16"
+publishDate: "2024-04-16"
 publication_types: ["article-journal"]
 
-# Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+publication: "*Case Studies in Construction Materials, 20* (2024), e03168"
+publication_short: "Case Stud. Constr. Mater."
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: |
+  This study investigates the application scope of seven existing empirical formulas for assessing the bond strength of various FRP bars in concrete, including normal, high-strength, and ultra-high-strength concrete. Using a dataset of 1019 pull-out test specimens from 34 studies, the paper evaluates formula performance, introduces safety probability values, and proposes safety coefficients to broaden applicability for modern FRP materials and concretes.
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Evaluates bond strength formulas for FRP bars in concrete using a large test dataset and proposes safety coefficients for broader applicability.
 
 tags:
-- Source Themes
+- FRP Bars
+- Bond Strength
+- Structural Engineering
+- Empirical Formulas
 featured: false
 
 hugoblox:
   ids:
-    arxiv: 1512.04133v1
+    doi: 10.1016/j.cscm.2024.e03168
 
 links:
+  - type: doi
+    url: https://doi.org/10.1016/j.cscm.2024.e03168
   - type: pdf
-    url: http://arxiv.org/pdf/1512.04133v1
+    url: https://www.sciencedirect.com/science/article/pii/S2214509524002492
   - type: code
-    url: https://github.com/HugoBlox/hugo-blox-builder
+    url: ""
   - type: dataset
-    url: ""
-  - type: poster
-    url: ""
-  - type: project
-    url: ""
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: source
     url: ""
   - type: video
     url: ""
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
-  focal_point: ""
+  caption: 'FRP bar bond strength testing'
+  focal_point: center
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
 projects: []
+slides: ""
+---
+---
+title: "Deep learning for bridge component classification"
+authors:
+- Cuong Pham
+- [Add other authors if listed on Emerald]
+date: "2025-01-15" # adjust to actual publication date
+publishDate: "2025-01-15"
+publication_types: ["article-journal"]
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
+publication: "*Journal of Bridge Engineering*"
+publication_short: "J. Bridge Eng."
+
+abstract: |
+  This study proposes a deep learning framework for automated bridge component classification from inspection images. The approach leverages convolutional neural networks (CNNs) to identify and label multiple structural elements under varying environmental conditions. Results demonstrate improved accuracy over traditional image-processing methods, showing potential for enhancing inspection efficiency and consistency.
+
+summary: Deep learning approach for automated classification of bridge components in inspection imagery.
+
+tags:
+- Deep Learning
+- Bridge Engineering
+- Computer Vision
+featured: false
+
+hugoblox:
+  ids:
+    doi: 10.1680/jbren.25.00006
+
+links:
+  - type: doi
+    url: https://doi.org/10.1680/jbren.25.00006
+  - type: pdf
+    url: https://www.emerald.com/jbren/article-abstract/doi/10.1680/jbren.25.00006/1269381
+  - type: code
+    url: ""
+  - type: dataset
+    url: ""
+  - type: video
+    url: ""
+
+image:
+  caption: 'Bridge component classification illustration'
+  focal_point: center
+  preview_only: false
+
+projects: []
 slides: ""
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
