@@ -8,10 +8,10 @@ main:
     url: /
     weight: 10
   - name: News
-    url: news/
+    url: post/
     weight: 20
   - name: Papers
-    url: papers/
+    url: publication/
     weight: 30
   - name: Experience
     url: experience/
