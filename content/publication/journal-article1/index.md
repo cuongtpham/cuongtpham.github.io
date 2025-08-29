@@ -34,7 +34,7 @@ links:
   - type: doi
     url: https://doi.org/10.1016/j.cscm.2024.e03168
   - type: pdf
-    url: https://www.sciencedirect.com/science/article/pii/S2214509524002492
+    url: https://www.sciencedirect.com/science/article/pii/S221450952400319X
   - type: code
     url: ""
   - type: dataset
