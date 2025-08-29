@@ -43,7 +43,7 @@ links:
     url: ""
 
 image:
-  caption: 'FRP bar bond strength testing'
+  caption: 'Typical surface types for FRP bars'
   focal_point: center
   preview_only: false
 
