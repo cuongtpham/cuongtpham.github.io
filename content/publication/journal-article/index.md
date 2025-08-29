@@ -5,7 +5,7 @@ authors:
 - Nguyen Minh Hai
 - Do Viet Hai
 - Phan Hoang Nam
-- Pham Tien Cuong
+- admin
 - Nguyen Van Huong
 date: "2024-04-16"
 publishDate: "2024-04-16"
