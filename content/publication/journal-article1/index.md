@@ -12,7 +12,7 @@ publishDate: "2024-04-16"
 publication_types: ["article-journal"]
 
 publication: "*Case Studies in Construction Materials, 20* (2024), e03168"
-publication_short: "Case Stud. Constr. Mater."
+publication_short: "Case Studies in Construction Materials"
 
 abstract: |
   This study investigates the application scope of seven existing empirical formulas for assessing the bond strength of various FRP bars in concrete, including normal, high-strength, and ultra-high-strength concrete. Using a dataset of 1019 pull-out test specimens from 34 studies, the paper evaluates formula performance, introduces safety probability values, and proposes safety coefficients to broaden applicability for modern FRP materials and concretes.
