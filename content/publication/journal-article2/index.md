@@ -42,7 +42,7 @@ links:
     url: ""
 
 image:
-  caption: 'Bridge inspection with UAV imagery and deep learning'
+  caption: 'Example result of component recognition'
   focal_point: center
   preview_only: false
 
