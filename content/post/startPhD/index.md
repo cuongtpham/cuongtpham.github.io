@@ -1,7 +1,7 @@
 ---
 title: 🎓 Starting My PhD Journey at the University of South Alabama
 summary: Excited to begin my PhD in Systems Engineering at the University of South Alabama, USA.
-date: 2023-08-15
+date: 2024-05-26
 authors:
   - admin
 tags:
