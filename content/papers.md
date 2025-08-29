@@ -16,6 +16,6 @@ sections:
         folders:
           - publication
     design:
-      view: card 
+      view: compact 
       fill_image: false
 ---
