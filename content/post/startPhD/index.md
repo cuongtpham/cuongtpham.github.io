@@ -11,7 +11,7 @@ tags:
   - Coastal Engineering
   - University of South Alabama
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/Hp9C5F5mM38)'
+  caption: 'Image credit: [**University of South Alabama**](https://www.southalabama.edu/)'
 ---
 
 I am thrilled to share that I have officially started my **PhD in Systems Engineering (Civil, Coastal, and Environmental Engineering Track)** at the **University of South Alabama**.  
