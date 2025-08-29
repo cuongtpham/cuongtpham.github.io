@@ -24,7 +24,7 @@ tags:
 - Bond Strength
 - Structural Engineering
 - Empirical Formulas
-featured: false
+featured: true
 
 hugoblox:
   ids:
