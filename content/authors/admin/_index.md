@@ -53,6 +53,10 @@ education:
     institution: University of South Alabama
     date_start: 2024-05-26
     date_end: ''
+- area: MSc in Civil Engineering
+    institution: University of South Alabama
+    date_start: 2024-05-26
+    date_end: 2026-05-07
 
   - area: BSc in Civil Engineering
     institution: The University of Da Nang - University of Science and Technology
