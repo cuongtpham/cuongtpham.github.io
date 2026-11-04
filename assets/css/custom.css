@@ -1,0 +1,219 @@
+
+/* ==========================================================
+   CUONG T. PHAM — CUSTOM WEBSITE STYLES
+   Hugo Blox | Professional Portfolio
+   ========================================================== */
+
+:root {
+  --portfolio-title-size: 3rem;
+  --portfolio-section-size: 1.625rem;
+  --portfolio-width: 1100px;
+  --portfolio-description-width: 800px;
+  --portfolio-citation-width: 960px;
+  --portfolio-top: 3rem;
+  --portfolio-section-gap: 3rem;
+  --portfolio-content-gap: 2rem;
+  --portfolio-heading-gap: 1.5rem;
+  --portfolio-gutter: 1.5rem;
+  --portfolio-radius: 0.75rem;
+}
+
+/* Shared landing-page hierarchy. Native component headings are scoped below. */
+.portfolio-heading {
+  padding-top: var(--portfolio-top) !important;
+  margin-bottom: var(--portfolio-content-gap);
+}
+
+.portfolio-heading-inner {
+  max-width: var(--portfolio-width);
+  margin-inline: auto;
+  padding-inline: var(--portfolio-gutter);
+  text-align: center;
+}
+
+.portfolio-title {
+  font-size: var(--portfolio-title-size);
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.portfolio-description {
+  max-width: var(--portfolio-description-width);
+  margin: 1rem auto 0;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.portfolio-description p { margin: 0; }
+
+:is(.pubs-group, #technical-skills, #awards, #projects, #papers, #updates) .text-3xl,
+#experience-timeline h2,
+#home #about-me {
+  font-size: var(--portfolio-section-size);
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  margin: 0 0 var(--portfolio-heading-gap);
+  white-space: normal;
+}
+
+/* Widen heading wrappers without forcing desktop text onto one line. */
+:is(.pubs-group, #technical-skills, #awards, #projects, #papers, #updates) > .max-w-prose {
+  width: 100%;
+  max-width: var(--portfolio-width);
+  margin-inline: auto;
+  padding-inline: var(--portfolio-gutter);
+  gap: 0;
+  text-align: center;
+}
+
+:is(#projects, #papers, #updates) > .max-w-prose p {
+  max-width: var(--portfolio-description-width);
+  margin: -0.5rem auto var(--portfolio-content-gap);
+}
+
+/* Citations retain the theme view, taxonomy filters, and external links. */
+.pubs-group + .pubs-group { margin-top: var(--portfolio-section-gap); }
+.pubs-group > .flex > .container,
+#papers > .flex > .container {
+  width: 100%;
+  max-width: var(--portfolio-citation-width);
+  margin-top: 0;
+  margin-inline: auto;
+  overflow-wrap: anywhere;
+}
+
+/* A single project fills the row; multiple projects gain two desktop columns. */
+.portfolio-project-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  width: 100%;
+  max-width: var(--portfolio-width);
+  margin-inline: auto;
+  gap: 1.5rem;
+}
+.portfolio-project-card {
+  min-width: 0;
+  padding: 1.75rem;
+  border-radius: var(--portfolio-radius);
+  overflow-wrap: anywhere;
+}
+.portfolio-project-card h2 { margin: 0 0 0.75rem; font-size: 1.25rem; line-height: 1.4; font-weight: 700; }
+.portfolio-project-card p { margin: 0; font-size: 1rem; line-height: 1.6; }
+.portfolio-project-card a:hover { text-decoration: underline; }
+.portfolio-project-card a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+
+/* Native timeline, icons and records remain in use. */
+#experience-timeline > .flex {
+  max-width: var(--portfolio-width);
+  padding-inline: var(--portfolio-gutter);
+}
+#experience-timeline > .flex > .flex { padding-inline: 1rem 0; }
+#experience-timeline > .flex > .flex > .w-full + .w-full {
+  margin-top: var(--portfolio-heading-gap);
+}
+#technical-skills, #awards { margin-top: var(--portfolio-section-gap); }
+
+/* v0.5.2 skills uses flex wrappers. Keep three broad desktop columns. */
+#technical-skills > .flex + .flex {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: var(--portfolio-width);
+  width: 100%;
+  padding-inline: var(--portfolio-gutter);
+  margin-inline: auto;
+  align-items: start;
+  gap: 2rem;
+}
+#technical-skills > .flex + .flex > .w-full { width: 100%; min-width: 0; }
+#technical-skills .skills-content { overflow-wrap: anywhere; }
+#awards > .flex { max-width: var(--portfolio-width); }
+#awards h5 { font-size: 1.125rem; line-height: 1; }
+#awards .leading-none { line-height: 1; }
+
+/* Compact native award cards while allowing wrapped text to set the height. */
+#awards > .flex > .w-full { gap: 0.875rem; }
+#awards > .flex > .w-full > .p-6 { padding-block: 1.25rem; }
+#awards > .flex > .w-full > .p-6 > :last-child { margin-bottom: 0; }
+
+/* Chronological updates use the supported date-title-summary view. */
+:is(#updates-list, #updates) > .flex > .container {
+  width: 100%;
+  max-width: var(--portfolio-width);
+  margin: 0 auto;
+}
+:is(#updates-list, #updates) article { padding-block: 0; }
+:is(#updates-list, #updates) .w-fit > .flex {
+  gap: var(--portfolio-content-gap);
+}
+/* Neutralize Tailwind's space-y margins so the gap is counted once. */
+:is(#updates-list, #updates) article { margin-block: 0 !important; }
+:is(#updates-list, #updates) article h2 { font-size: 1.125rem; line-height: 1.5; }
+
+/* Harmonize the existing profile and footer without changing their content. */
+#home { padding-block: 3rem !important; }
+#home #about-me { text-align: left; }
+.page-footer > footer { margin-top: var(--portfolio-section-gap); padding-inline: var(--portfolio-gutter); }
+.page-body:has(> .portfolio-heading) { padding-bottom: 0; }
+
+@media (min-width: 1024px) {
+  .portfolio-project-grid:has(> :nth-child(2)) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  #technical-skills > .flex + .flex { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --portfolio-title-size: 2.25rem;
+    --portfolio-section-size: 1.375rem;
+    --portfolio-top: 2rem;
+    --portfolio-section-gap: 2rem;
+    --portfolio-content-gap: 1.5rem;
+    --portfolio-heading-gap: 1rem;
+    --portfolio-gutter: 1rem;
+  }
+  .portfolio-description { margin-top: 0.75rem; font-size: 1rem; }
+  .portfolio-project-card { padding: 1.25rem; }
+  #home { padding-block: 2rem !important; }
+}
+
+@media (max-width: 639px) {
+  #technical-skills > .flex + .flex { grid-template-columns: minmax(0, 1fr); }
+}
+
+
+/* ==========================================================
+   1. PUBLICATION DETAIL PAGES
+   Applies to /publication/article-name/
+   Excludes /publication/
+   ========================================================== */
+
+@media (min-width: 1024px) {
+
+  /* Expand article content */
+  html:has(
+    link[rel="canonical"][href*="/publication/"]:not([href$="/publication/"])
+  ) article main {
+    width: 100% !important;
+    max-width: 1000px !important;
+    margin-inline: auto !important;
+  }
+
+  /* Remove default prose width limit */
+  html:has(
+    link[rel="canonical"][href*="/publication/"]:not([href$="/publication/"])
+  ) article main .prose {
+    width: 100% !important;
+    max-width: none !important;
+  }
+}
+
+
+
+:is(#updates-list, #updates) > .flex > .w-fit { width: 100%; max-width: var(--portfolio-width); margin: 0 auto; }
+:is(#updates-list, #updates) .w-fit > .flex { max-width: none; }
