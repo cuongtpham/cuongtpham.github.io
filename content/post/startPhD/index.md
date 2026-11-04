@@ -1,37 +1,36 @@
+
 ---
-title: 🎓 Starting My PhD Journey at the University of South Alabama
-summary: Excited to begin my PhD in Systems Engineering at the University of South Alabama, USA.
+title: "Starting My Ph.D. at the University of South Alabama"
+summary: "Beginning my Ph.D. in Systems Engineering at the University of South Alabama, with a focus on engineering, natural hazards, and computational methods."
 date: 2024-05-26
 authors:
   - admin
 tags:
-  - Academic
   - PhD
   - Systems Engineering
   - Civil Engineering
   - Coastal Engineering
   - University of South Alabama
 image:
-  caption: 'Image credit: [**University of South Alabama**](https://www.southalabama.edu/)'
+  caption: "University of South Alabama"
 ---
 
-I am thrilled to share that I have officially started my **PhD in Systems Engineering (Civil, Coastal, and Environmental Engineering Track)** at the **University of South Alabama**.  
-![Starting my PhD at University of South Alabama](usa-campus.jpg)
-My research focuses on:  
-- 🌊 **Coastal hazard modeling** — understanding hurricane impacts, storm surge, and sea level rise.  
-- 🏠 **Flood risk assessment** — integrating wave-flume experiments, simulations with community-scale resilience planning.  
-- 🤖 **AI for disaster management** — applying machine learning and deep learning to improve data quality and damage detection.  
+I am pleased to share that I have started my **Ph.D. in Systems Engineering** at the **University of South Alabama**, with a focus on civil, coastal, and environmental engineering.
 
-This journey marks the next step in my academic and professional career, and I am excited to contribute to advancing resilient infrastructure for coastal communities.  
+This marks an important step in my professional development, providing an opportunity to expand my expertise in engineering analysis, computational modeling, and research.
 
-Stay tuned for updates as I share my progress, publications, and experiences throughout this PhD journey.  
+![University of South Alabama campus](usa-campus.jpg)
+
+## Research Interests
+
+During my doctoral studies, I plan to explore several interconnected areas:
+
+- **Coastal Hazards:** Understanding the impacts of hurricanes, storm surge, and sea-level rise on coastal infrastructure.
+- **Structural Engineering and Resilience:** Assessing infrastructure performance and vulnerability under extreme events through computational and experimental methods.
+- **Artificial Intelligence in Engineering:** Applying machine learning, deep learning, and computer vision to engineering and natural hazard problems.
 
 ## Looking Ahead
-Over the next few years, I aim to:  
-- Publish research on **AI + coastal flood management**.  
-- Develop an integrated **community resilience testbed**.  
-- Collaborate with colleagues and mentors at USA and beyond.  
 
----
+Throughout my doctoral studies, I aim to contribute to research that connects engineering theory, computational tools, and practical applications.
 
-🙌 Thank you to my advisors, colleagues, and family for supporting me on this path. I look forward to what lies ahead!
+I look forward to collaborating with faculty, researchers, and industry professionals, sharing research outcomes, and continuing to develop my technical and professional expertise.

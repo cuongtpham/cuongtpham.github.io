@@ -1,0 +1,5 @@
+{{/* Shared semantic title for portfolio landing pages. */}}
+<div class="portfolio-heading-inner">
+  <h1 class="portfolio-title">{{ .wcBlock.content.title | emojify | .wcPage.RenderString }}</h1>
+  {{ with .wcBlock.content.text }}<div class="portfolio-description prose prose-slate dark:prose-invert">{{ . | $.wcPage.RenderString }}</div>{{ end }}
+</div>

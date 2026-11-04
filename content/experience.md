@@ -1,35 +1,58 @@
 ---
-title: 'Experience'
-date: 2023-10-24
+title: "Experience"
+date: 2026-11-03
 type: landing
 
 design:
-  spacing: '5rem'
+  spacing: "0"
 
-# Note: `username` refers to the user's folder name in `content/authors/`
-
-# Page sections
 sections:
+
+  - block: portfolio-heading
+    id: experience-overview
+    content:
+      title: "Experience"
+    design:
+      css_class: portfolio-heading
+      spacing:
+        padding: ["0", "0", "0", "0"]
+
+  # ==========================================
+  # EXPERIENCE & EDUCATION TIMELINE
+  # ==========================================
   - block: resume-experience
+    id: experience-timeline
     content:
       username: admin
     design:
-      # Hugo date format
-      date_format: 'January 2006'
-      # Education or Experience section first?
+      date_format: "January 2006"
       is_education_first: false
+      spacing:
+        padding: ["0", "0", "0", "0"]
+
+  # ==========================================
+  # TECHNICAL SKILLS
+  # ==========================================
   - block: resume-skills
+    id: technical-skills
     content:
-      title: Skills & Hobbies
+      title: "Technical Skills"
       username: admin
     design:
       show_skill_percentage: false
+      spacing:
+        padding: ["0", "0", "0", "0"]
+
+  # ==========================================
+  # HONORS & AWARDS
+  # ==========================================
   - block: resume-awards
+    id: awards
     content:
-      title: Awards
+      title: "Honors & Awards"
       username: admin
-  - block: resume-languages
-    content:
-      title: Languages
-      username: admin
+    design:
+      date_format: "2006"
+      spacing:
+        padding: ["0", "0", "0", "0"]
 ---

@@ -16,7 +16,7 @@ sections:
         folders:
           - post
     design:
-      view: compact 
+      view: date-title-summary
       fill_image: false
 ---
 
