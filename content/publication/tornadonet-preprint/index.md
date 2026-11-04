@@ -8,7 +8,7 @@ authors:
 - Crawford, S.
 - Brown-Giammanco, T.
 - Lemson, G.
-- van de Lindt, J.
+- van de Lindt, J. W.
 - Johnston, B.
 - Mitschang, A.
 - Do, T.

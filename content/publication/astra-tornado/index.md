@@ -4,7 +4,7 @@ authors:
 - Umeike, R.
 - Dao, T.
 - Crawford, S.
-- van de Lindt, J.
+- van de Lindt, J. W.
 - Johnston, B.
 - Wang, W. (Lisa)
 - Do, T.
