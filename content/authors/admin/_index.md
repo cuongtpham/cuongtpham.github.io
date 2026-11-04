@@ -165,7 +165,7 @@ skills:
   - name: Engineering & Computational Tools
     items:
       - name: Structural Analysis
-        description: SAP2000 and MIDAS Civil
+        description: RISA-3D, SAP2000, and MIDAS Civil
         icon: calculator
 
       - name: CAD & BIM
