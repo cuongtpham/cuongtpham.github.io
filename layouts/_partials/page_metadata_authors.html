@@ -1,12 +1,24 @@
 {{/* Display author list. */}}
 
-{{ if .Params.authors }}
-  {{ range $index, $value := (.GetTerms "authors") }}
+{{/* Accept a citation context while retaining the page-only interface elsewhere. */}}
+{{ $page := . }}
+{{ $is_citation := false }}
+{{ if reflect.IsMap . }}
+  {{ $page = .page }}
+  {{ $is_citation = .is_citation | default false }}
+{{ end }}
+
+{{ if $page.Params.authors }}
+  {{ range $index, $value := ($page.GetTerms "authors") }}
     {{/* Preserve front-matter spelling: generated taxonomy titles alter case.
          Explicit profile titles (e.g. admin) still provide the display name. */}}
-    {{- $display_name := index $.Params.authors $index -}}
+    {{- $display_name := index $page.Params.authors $index -}}
     {{- with .Params.title -}}
       {{- $display_name = $value.LinkTitle -}}
+    {{- end -}}
+    {{/* The profile retains its full name outside publication citations. */}}
+    {{- if and $is_citation (eq (index $page.Params.authors $index) "admin") -}}
+      {{- $display_name = "Pham, C. T." -}}
     {{- end -}}
     {{- /* Highlight the author's name? */ -}}
     {{- $highlight_name := .Page.Params.highlight_name | default false -}}
@@ -20,8 +32,8 @@
         {{ $display_name }}
       {{- end -}}
     </span>
-    {{- if isset $.Params "author_notes" -}}
-      {{- with (index $.Params.author_notes $index) -}}
+    {{- if isset $page.Params "author_notes" -}}
+      {{- with (index $page.Params.author_notes $index) -}}
         <span class="relative inline-block ml-1" x-data="{ tooltip: false }">
           <button
             @mouseenter="tooltip = true"
