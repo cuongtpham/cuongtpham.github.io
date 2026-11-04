@@ -21,7 +21,7 @@ organizations:
 
 profiles:
   - icon: at-symbol
-    url: mailto:cuongpham@southalabama.edu
+    url: mailto:cuongpham.eng@gmail.com
     label: E-mail Me
 
   - icon: brands/github
